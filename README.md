@@ -6,16 +6,16 @@ The analysis uses a comprehensive dataset from Uber and Lyft in Boston, covering
 It aims to benefit stakeholders like riders, ride-hailing companies and regulatory bodies by providing insights into fair pricing, service optimization and policy development.
 
 **Table of Contents**
-Abstract
-Introduction
-Research Objectives
-Research Problem
-Tools Used
-Research Methods
-Data Description
-Data Pre-Processing
-Exploratory Data Analysis
-Findings and Conclusions
+1)Abstract
+2)Introduction
+3)Research Objectives
+4)Research Problem
+5)Tools Used
+6)Research Methods
+7)Data Description
+8)Data Pre-Processing
+9)Exploratory Data Analysis
+10)Findings and Conclusions
 
 
 **Technologies Used**
@@ -35,8 +35,8 @@ To run the code from the "Ride-hailing Optimization and Customer Preference Anal
 To install the necessary libraries for your project in a Jupyter Notebook environment, you can simply run the installation commands as cells within the notebook.
 
 Here's how you can do it:
-Open a new cell at the top of your Jupyter Notebook.
-Enter the installation commands, prefixing them with an exclamation point ! to indicate that they are shell commands.
+* Open a new cell at the top of your Jupyter Notebook.
+* Enter the installation commands, prefixing them with an exclamation point ! to indicate that they are shell commands.
 
 For example:
 !pip install numpy
@@ -48,18 +48,18 @@ For example:
 
 **Usage Instructions** 
 Data Structure and Format:
-The scripts expect input data in CSV format.
-Ensure your dataset contains columns relevant to ride-hailing analysis, such as pricing, ride types, and weather conditions.
+* The scripts expect input data in CSV format.
+* Ensure your dataset contains columns relevant to ride-hailing analysis, such as pricing, ride types, and weather conditions.
 
 Running the Analysis Scripts:
-Start by running the "1_DataCleaning.ipynb" notebook to clean and prepare the data.
-Proceed with "2_ExploratoryDataAnalysis1.ipynb" for initial data exploration.
-Use "3_Assumptions.ipynb" to check various assumptions relevant to the data.
-Follow with "4_Regression_Comparative Analysis.ipynb" for regression analysis.
-Finally, run "5_Factor&_SegmentationAnalysis.ipynb" for more advanced analysis, including factor and segmentation analysis.
+1)Start by running the "1_DataCleaning.ipynb" notebook to clean and prepare the data.
+2)Proceed with "2_ExploratoryDataAnalysis1.ipynb" for initial data exploration.
+3)Use "3_Assumptions.ipynb" to check various assumptions relevant to the data.
+4)Follow with "4_Regression_Comparative Analysis.ipynb" for regression analysis.
+5)Finally, run "5_Factor&_SegmentationAnalysis.ipynb" for more advanced analysis, including factor and segmentation analysis.
 
-Each notebook contains detailed instructions and comments explaining the code and the analysis process.
-Ensure that each notebook is run in sequence as they may depend on the outputs and processed data from the previous steps. ​
+* Each notebook contains detailed instructions and comments explaining the code and the analysis process.
+* Ensure that each notebook is run in sequence as they may depend on the outputs and processed data from the previous steps. ​
 
 
 **Documentation** Detailed comments within the code explaining each step of the analysis.
