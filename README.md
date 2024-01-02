@@ -36,24 +36,24 @@ To run the code from the "Ride-hailing Optimization and Customer Preference Anal
 **Installation Instructions**
 To install the necessary libraries for your project in a Jupyter Notebook environment, you can simply run the installation commands as cells within the notebook.
 
-## Here's how you can do it:
+Here's how you can do it:
 * Open a new cell at the top of your Jupyter Notebook.
 * Enter the installation commands, prefixing them with an exclamation point ! to indicate that they are shell commands.
 
-### For example:
-!pip install numpy
-!pip install pandas
-!pip install matplotlib
-!pip install seaborn
-!pip install scikit-learn
+For example:
+* !pip install numpy
+* !pip install pandas
+* !pip install matplotlib
+* !pip install seaborn
+* !pip install scikit-learn
 
 
 **Usage Instructions** 
-## Data Structure and Format:
+Data Structure and Format:
 * The scripts expect input data in CSV format.
 * Ensure your dataset contains columns relevant to ride-hailing analysis, such as pricing, ride types, and weather conditions.
 
-## Running the Analysis Scripts:
+Running the Analysis Scripts:
 1. Start by running the "1_DataCleaning.ipynb" notebook to clean and prepare the data.
 2. Proceed with "2_ExploratoryDataAnalysis1.ipynb" for initial data exploration.
 3. Use "3_Assumptions.ipynb" to check various assumptions relevant to the data.
